@@ -1,0 +1,11 @@
+@UnimedFESP.FeatureFlags.Services.Api_HostAddress = http://localhost:5127
+
+GET {{UnimedFESP.FeatureFlags.Services.Api_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{UnimedFESP.FeatureFlags.Services.Api_HostAddress}}/todos/1
+Accept: application/json
+
+###
