@@ -1,6 +1,6 @@
-@UnimedFESP.FeatureFlags.Services.Api_HostAddress = http://localhost:5128
+@FeatureFlags.Services.Api_HostAddress = http://localhost:5128
 
-GET {{UnimedFESP.FeatureFlags.Services.Api_HostAddress}}/weatherforecast/
+GET {{FeatureFlags.Services.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

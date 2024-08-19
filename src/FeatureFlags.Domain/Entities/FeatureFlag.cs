@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using UnimedFESP.Domain.Core.Domain;
+using FeatureFlags.Domain.Core;
 
 namespace FeatureFlags.Domain.Entities
 {

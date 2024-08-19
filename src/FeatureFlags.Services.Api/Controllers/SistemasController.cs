@@ -3,7 +3,7 @@ using System.Net;
 using FeatureFlags.Application.AppServices.Interface;
 using FeatureFlags.Application.ViewModel;
 
-namespace UnimedFESP.FeatureFlags.Services.Api.Controllers
+namespace FeatureFlags.Services.Api.Controllers
 {
     [Route("api/[controller]")]
     public class SistemasController : ApiController

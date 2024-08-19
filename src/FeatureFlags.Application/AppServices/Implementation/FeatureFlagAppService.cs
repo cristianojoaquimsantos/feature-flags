@@ -2,7 +2,7 @@ using AutoMapper;
 using FeatureFlags.Application.AppServices.Interface;
 using FeatureFlags.Application.ViewModel;
 using FluentValidation.Results;
-using UnimedFESP.Domain.Core.Mediator;
+using FeatureFlags.Domain.Core.Mediator;
 using FeatureFlags.Domain.Entities;
 using FeatureFlags.Domain.Repository.Interface;
 

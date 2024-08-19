@@ -1,4 +1,4 @@
-﻿using UnimedFESP.Domain.Core.Data;
+﻿using FeatureFlags.Domain.Core.Data;
 using FeatureFlags.Domain.Entities;
 using FeatureFlags.Domain.Enums;
 using FeatureFlags.Domain.Repository.Interface;

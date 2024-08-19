@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FeatureFlags.Domain.Core.Data;
+using FeatureFlags.Domain.Core.Mediator;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using UnimedFESP.Domain.Core.Data;
-using UnimedFESP.Domain.Core.Mediator;
 using FeatureFlags.Domain.Entities;
 using FeatureFlags.Infra.Data.EntityConfiguration;
 

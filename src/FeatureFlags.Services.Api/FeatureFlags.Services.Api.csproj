@@ -7,7 +7,7 @@
     <UserSecretsId>54dbd1dc-2011-48a1-b2a8-570e180a227e</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
-    <RootNamespace>UnimedFESP.FeatureFlags.Services.Api</RootNamespace>
+    <RootNamespace>FeatureFlags.Services.Api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

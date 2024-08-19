@@ -1,6 +1,6 @@
 using FeatureFlags.Domain.Entities;
 using FeatureFlags.Domain.Enums;
-using UnimedFESP.Domain.Core.Data;
+using FeatureFlags.Domain.Core.Data;
 
 namespace FeatureFlags.Domain.Repository.Interface
 {

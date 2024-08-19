@@ -1,4 +1,4 @@
-﻿using UnimedFESP.Domain.Core.Messaging;
+﻿using FeatureFlags.Domain.Core.Message;
 
 namespace FeatureFlags.Domain.Commands.Entities
 {

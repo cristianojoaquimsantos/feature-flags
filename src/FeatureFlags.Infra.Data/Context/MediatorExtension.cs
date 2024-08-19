@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using UnimedFESP.Domain.Core.Domain;
-using UnimedFESP.Domain.Core.Mediator;
+﻿using FeatureFlags.Domain.Core;
+using FeatureFlags.Domain.Core.Mediator;
+using Microsoft.EntityFrameworkCore;
 
 namespace FeatureFlags.Infra.Data.Context
 {

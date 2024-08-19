@@ -1,7 +1,7 @@
-﻿using Microsoft.OpenApi.Models;
-using UnimedFESP.FeatureFlags.Services.Api.Extension;
+﻿using FeatureFlags.Services.Api.Extension;
+using Microsoft.OpenApi.Models;
 
-namespace UnimedFESP.FeatureFlags.Services.Api.Configuration
+namespace FeatureFlags.Services.Api.Configuration
 {
     public static class SwaggerConfiguration
     {
@@ -16,8 +16,8 @@ namespace UnimedFESP.FeatureFlags.Services.Api.Configuration
                     Version = "v3",
                     Title = "API Feature Flags",
                     Description = "API de Serviços para Integração de Sistemas com o Fluxo de Feature Flags",
-                    Contact = new OpenApiContact { Name = "Arquitetura FESP", Email = "arquitetura.ti@unimedfesp.coop.br" },
-                    License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://www.unimedfesp.coop.br") }
+                    Contact = new OpenApiContact { Name = "Arquitetura FESP", Email = "cristiano.joaquim@gmail.com" },
+                    License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://www.codelinq.com.br") }
                 });
 
 

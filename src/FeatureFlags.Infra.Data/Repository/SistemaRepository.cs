@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using UnimedFESP.Domain.Core.Data;
+﻿using FeatureFlags.Domain.Core.Data;
+using Microsoft.EntityFrameworkCore;
 using FeatureFlags.Domain.Entities;
 using FeatureFlags.Domain.Repository.Interface;
 using FeatureFlags.Infra.Data.Context;

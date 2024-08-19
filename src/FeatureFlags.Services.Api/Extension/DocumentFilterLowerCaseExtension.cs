@@ -1,7 +1,7 @@
 ﻿using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace UnimedFESP.FeatureFlags.Services.Api.Extension
+namespace FeatureFlags.Services.Api.Extension
 {
     public class DocumentFilterLowerCaseExtension : IDocumentFilter
     {

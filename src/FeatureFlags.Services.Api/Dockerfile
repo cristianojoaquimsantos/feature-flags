@@ -9,17 +9,17 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["src/UnimedFESP.FeatureFlags.Services.Api/UnimedFESP.FeatureFlags.Services.Api.csproj", "src/UnimedFESP.FeatureFlags.Services.Api/"]
-RUN dotnet restore "./src/UnimedFESP.FeatureFlags.Services.Api/UnimedFESP.FeatureFlags.Services.Api.csproj"
+COPY ["src/FeatureFlags.Services.Api/FeatureFlags.Services.Api.csproj", "src/FeatureFlags.Services.Api/"]
+RUN dotnet restore "./src/FeatureFlags.Services.Api/FeatureFlags.Services.Api.csproj"
 COPY . .
-WORKDIR "/src/src/UnimedFESP.FeatureFlags.Services.Api"
-RUN dotnet build "./UnimedFESP.FeatureFlags.Services.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/src/FeatureFlags.Services.Api"
+RUN dotnet build "./FeatureFlags.Services.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./UnimedFESP.FeatureFlags.Services.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./FeatureFlags.Services.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "UnimedFESP.FeatureFlags.Services.Api.dll"]
+ENTRYPOINT ["dotnet", "FeatureFlags.Services.Api.dll"]

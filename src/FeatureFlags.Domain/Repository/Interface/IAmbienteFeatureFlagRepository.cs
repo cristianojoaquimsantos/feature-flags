@@ -1,5 +1,5 @@
-﻿using FeatureFlags.Domain.Entities;
-using UnimedFESP.Domain.Core.Data;
+﻿using FeatureFlags.Domain.Core.Data;
+using FeatureFlags.Domain.Entities;
 
 namespace FeatureFlags.Domain.Repository.Interface
 {

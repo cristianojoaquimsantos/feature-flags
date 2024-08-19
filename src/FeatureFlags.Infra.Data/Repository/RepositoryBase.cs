@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.CodeAnalysis;
-using UnimedFESP.Domain.Core.Data;
-using UnimedFESP.Domain.Core.Domain;
+using FeatureFlags.Domain.Core;
 using FeatureFlags.Domain.Repository.Interface;
 using FeatureFlags.Infra.Data.Context;
 

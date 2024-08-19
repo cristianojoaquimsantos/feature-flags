@@ -1,5 +1,5 @@
 ﻿using FeatureFlags.Application.AppServices.Interface;
-using UnimedFESP.Domain.Core.Domain;
+using FeatureFlags.Domain.Core;
 using FeatureFlags.Domain.Repository.Interface;
 
 namespace FeatureFlags.Application.AppServices.Implementation

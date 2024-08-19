@@ -1,4 +1,4 @@
-﻿namespace UnimedFESP.FeatureFlags.Services.Api.ViewModel
+﻿namespace FeatureFlags.Services.Api.ViewModel
 {
     public class ResponseViewModel
     {

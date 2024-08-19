@@ -1,6 +1,6 @@
-using UnimedFESP.FeatureFlags.Services.Api.Configuration;
+using FeatureFlags.Services.Api.Configuration;
 
-namespace UnimedFESP.FeatureFlags.Services.Api
+namespace FeatureFlags.Services.Api
 {
     public static class Program
     {

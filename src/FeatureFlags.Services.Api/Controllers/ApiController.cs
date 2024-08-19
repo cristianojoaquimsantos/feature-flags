@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace UnimedFESP.FeatureFlags.Services.Api.Controllers
+namespace FeatureFlags.Services.Api.Controllers
 {
     public class ApiController: ControllerBase
     {
